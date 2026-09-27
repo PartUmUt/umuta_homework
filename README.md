@@ -1,1 +1,5 @@
-# umuta_homework
+# umuta_homework ödev gibi bir şey işte ㄟ( ▔, ▔ )ㄏ
+
+Kod basitçe anlatmak gerekirse (gerek yok açarsa birisi zaten anlar ama yine de anlatacağım) kayıt sistemi; boş yerleri doldurarak 'EKLE'ye basarsanız yeni kayıt eklemiş olursunuz, bir satıra basarsanız ve 'SİL'e tıklarsanız kaydı silmiş olursunuz, bir satıra basarsanız ve o satırdaki her hangi bir yazıyı değiştirirsenir ve sonrasında 'GÜNCELLE'e basarsanız kaydı güncellemiş olursunuz ve son olarak isim kısmına bir isim yazarsanız ve 'ARA'ya tıklarsanız aynı isimle eşleşen sonuçlar listelenir (yanlız şöyle bir durum var mevcut kodda ismin tam eşleşmesi lazım çünkü LIKE, % filan kullanmadım henüz)
+
+Fromu Visual Studio üzerinden yaptım ve veri tabanı için ise SQL Server 2025 Configuration Manager (Server için) ve SQL Server Management Studio 22 (SSMS)'a ihtiyaç duydum (duymaz olaydım depolamamı yediler!) yani bu kadar sanırım, SQLite ile de yapılabilirdi ama neyse. Kod içinde de proje için Microsoft SqlClient kullanılması lazım. Sanırım başka bir şey kalmadı, evet bu kadar.
